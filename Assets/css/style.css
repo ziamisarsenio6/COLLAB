@@ -1,0 +1,63 @@
+:root{
+
+    --bg1: #adb5bd;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #197187;
+    --white: rgb(243, 239, 239);
+    --p: rgb(247, 240, 240); 
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand {
+    background-color:#664d03ed;
+    color: #030303;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+    .btn-outline-brand{
+        background-color: transparent;
+        color: var(--brand);
+        border-color: var(--brand);
+    }
+.btn-outline-brand:hover{
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about {
+    background-color: #dfe2e6;
+    
+}
+#Services{
+    background-color: #212529;   
+}
+.icon-box-img{
+    width: 40%;z
+}
+.card{
+    transition: background-color 0.3s,color 0.3s;
+}
+.card:hover{
+    background-color: var(--bg1);
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn{
+    color: #ffffff;
+}
+
