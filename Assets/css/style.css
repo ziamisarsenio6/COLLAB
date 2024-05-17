@@ -1,0 +1,58 @@
+:root {
+    --c1: #363538;
+    --c2: #8d8c8a;
+    --c3:#f6f6f6;
+    --c4: #408697;
+    --c5: #52d6f4;     
+    --c6: rgb(145, 152, 194);
+}
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: var(--c1);
+    line-height: 1.8;
+    background-color: var(--c2);
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 10%, 33%, 0.856), rgba(95, 92, 92, 0.315)),
+        url(https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-colorful-musical-notes-and-music-notes-image_2878057.jpg);
+    background-size: cover;
+}
+
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 100px;
+}
+
+.btn-brand {
+    background-color: var(--c3);
+    color: hsl(0, 3%, 21%);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--c3);
+    border-color: var(--c3);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--c1);
+    border-color: var(--c1);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--c2);
+    color: var(--c3);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
