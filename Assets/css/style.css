@@ -1,0 +1,24 @@
+#reviews {
+    background-color: #FFFFFF;
+}
+.testimonials {
+    padding: 30px;
+    background: linear-gradient(to bottom, hsla(120, 1%, 34%, 0.829) ,rgba(37, 36, 36, 0.925));
+    border-radius: 1px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: var(--p);
+}
+
+#reviews {
+    background-color: #dad4d4;
+}
+
